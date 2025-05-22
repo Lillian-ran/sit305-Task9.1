@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvSelectedLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No location selected"
+        android:textSize="18sp"
+        android:paddingBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnRetrySearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Again" />
+
+    <Button
+        android:id="@+id/btnConfirmLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Location"
+        android:enabled="false"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
