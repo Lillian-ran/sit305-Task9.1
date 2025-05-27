@@ -27,7 +27,10 @@ public class ShowItemsActivity extends AppCompatActivity {
         Cursor cursor = db.getAllItems();
         while (cursor.moveToNext()) {
             ids.add(cursor.getInt(0));
-            items.add(cursor.getString(1) + " - " + cursor.getString(3));
+            items.add(cursor.getString(1)
+                    + " - " + cursor.getString(2)
+                    + " - " + cursor.getString(5)
+                    + " - " + cursor.getString(6));
         }
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, items);
         listView.setAdapter(adapter);

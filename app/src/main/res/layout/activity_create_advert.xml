@@ -110,15 +110,7 @@
         </LinearLayout>
     </ScrollView>
     <!-- Stick Button at bottom -->
-    <Button
-        android:id="@+id/btnCurrentLocation"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:text="GET CURRENT LOCATION"
-        app:layout_constraintBottom_toTopOf="@id/btnSave"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+<!--    <Button-->
     <Button
         android:id="@+id/btnSave"
         android:layout_width="match_parent"
